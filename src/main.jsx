@@ -5,8 +5,12 @@ import "./index.css";
 import App from "./App.jsx";
 
 Sentry.init({
-  dsn: "https://6680ab72a5be9a1ad7591f33ec95aff8@o4509316252303360.ingest.de.sentry.io/4509958082199632",
+  dsn: "https://c9c218555974ba36358efbab0b6653d4@o4509316252303360.ingest.de.sentry.io/4509958356795472",
+  // Setting this option to true will send default PII data to Sentry.
+  // For example, automatic IP address collection on events
   sendDefaultPii: true,
+  environment: "development"
+
 });
 
 const root = createRoot(document.getElementById("root"));
