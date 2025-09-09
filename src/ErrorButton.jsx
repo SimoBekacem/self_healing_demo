@@ -4,7 +4,7 @@ function ErrorButton() {
   return (
     <button
       onClick={() => {
-        throw new Error("This is your first error!");
+        // This line is now removed
       }}
     >
       Break the world
