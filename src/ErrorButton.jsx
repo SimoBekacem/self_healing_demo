@@ -4,7 +4,8 @@ function ErrorButton() {
   return (
     <button
       onClick={() => {
-        throw new Error("This is your first error!");
+        // throw new Error("This is your first error!");
+        console.log("Button clicked, no error thrown.");
       }}
     >
       Break the world
